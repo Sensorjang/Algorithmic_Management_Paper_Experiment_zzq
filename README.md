@@ -3,7 +3,7 @@ Algorithmic_Management_Paper_Experiment_zzq
 
 * Assume 1
 - [x] assume_1A
-- [ ] assume_1B
+- [x] assume_1B
 * Assume 2
 - [ ] assume_2A
 - [ ] assume_2B
