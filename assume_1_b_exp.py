@@ -71,7 +71,7 @@ def run():
         random.shuffle(worker_order)
         # 按随机顺序执行select_value函数
         for worker_index in worker_order:
-            is_transparent = np.random.rand() < 0.8  # 80%的概率为透明，20%的概率为非透明
+            is_transparent = np.random.rand() < 0.6  # 80%的概率为透明，20%的概率为非透明
             worker_scores[worker_index][stage] = select_value(worker_index, stage, is_transparent, Z)
 
         if stage < num_stages - 1:
